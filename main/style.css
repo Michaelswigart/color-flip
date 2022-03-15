@@ -1,14 +1,18 @@
+/* nav bar needs work find out why the inline-grid won't work. */
 nav {
+    display: inline-grid;
     font-size: 20px;
     background: gray;
     display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: 50px;
+    grid-template-columns: repeat(4, 100px);grid-template-rows: 100px;
     grid-gap: 10px;
-    grid-template-rows: 50px;
     grid-column: 1/2;
-  
+    /* nav bar won't line up the way I want it to. */
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
 }
+/* check to see if container is what I need. */
 .container {
 font-size: 16px;
 width: 100%;
@@ -17,8 +21,10 @@ display: grid;
 /* grid-template-columns: repeat(3, 100px); */
 grid-template-rows: 50px 50px 50px;
 justify-content: center;
+height: 50rem;
+margin: .3rem .1rem .3rem .1rem;
 }
-
+/* the button is not done. */
 button {
     background-color: powderblue;
     margin: 10px 0px 0px 0px;
