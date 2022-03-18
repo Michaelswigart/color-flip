@@ -4,18 +4,15 @@
 } */
 
 nav {
-     display: -moz-inline-grid;
-    list-style: none;
-    font-size: 20px;
-    font-family:monospace;
-    background: gray;
-    display: grid;
-    grid-template-columns: repeat(4, 100px);grid-template-rows: 100px;
-    grid-gap: 10px;
-    grid-column: 1/2;
-    grid-row-start: 1;
-    grid-row-end: 3;   
-}
+   display: grid; 
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 50px 50px;
+   grid-column: 1 / -1;
+  
+   background: gray;
+   
+   
+} 
 
  a {
      color: black;
@@ -24,21 +21,21 @@ nav {
 
 /* check to see if container is what I need. */
 .container {
-font-size: 16px;
-width: 100%;
+display: grid; 
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+
+
 background: lightgray;
-display: grid;
-/* grid-template-columns: repeat(3, 100px); */
-grid-template-rows: 50px 50px 50px;
-justify-content: center;
-height: 20rem;
-margin: 9rem .1rem .1rem .1rem;
-background-color:gray;
 
 
 }
 /* the button is not done. */
 button {
+    display: grid;
+     grid-template: 1fr / 1fr;
+     grid-column: 2 / 3;
+     
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     background-color: powderblue;
