@@ -12,11 +12,8 @@
   * [Usage](#usage)
   * [Tests](#tests)
   * [Questions](#questions)
-  ## Installation
-  To install dependencies, run the below command :
-    Go to the site and click the button and go to the navbar for simple or hex it's that easy.
   ## Usage
-     N/A
+     Go to the site and click the button and go to the navbar for simple or hex it's that easy.
   ## License
     This repository is covered under the license '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
     Refer [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) for more detailed info
